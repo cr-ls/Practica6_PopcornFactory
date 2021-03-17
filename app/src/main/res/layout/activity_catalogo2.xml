@@ -31,41 +31,10 @@
         />
 
     <GridView
-        android:id="@+id/gridview"
+        android:id="@+id/movies_catalog"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:numColumns="3"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
-        android:fontFamily="sans-serif-condensed"
-        android:paddingTop="5dp"
-        android:paddingRight="20dp"
-        android:paddingBottom="15dp"
-        android:text="Series"
-        android:textAlignment="textEnd"
-        android:textColor="@color/yellow"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        />
-
-    <TextView
-        android:layout_width="259dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginTop="-47dp"
-        android:background="@drawable/linea"
-        />
-
-    <GridView
-        android:id="@+id/gridseries"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:numColumns="3"
-        />
+        android:numColumns="3" />
 
 </LinearLayout>
