@@ -4,5 +4,6 @@
     <string name="button">GET ME IN!</string>
     <string name="peliculas">Peliculas</string>
     <string name="descripcion">descripcion</string>
+    <string name="CCompra">Purchase Confirmation!</string>
 
 </resources>
